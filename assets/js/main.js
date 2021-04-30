@@ -23,10 +23,10 @@
             
 
             // Search Trigger
-            $('.search-trigger').on('click', function(){
-                $('#search-modal').addClass('show');
-                $('.search-overlay').addClass('show');
-            });
+            // $('.search-trigger').on('click', function(){
+            //     $('#search-modal').addClass('show');
+            //     $('.search-overlay').addClass('show');
+            // });
             $('.search-overlay').on('click', function(){
                 $(this).removeClass('show');
                 $('#search-modal').removeClass('show');
